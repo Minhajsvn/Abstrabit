@@ -1,0 +1,31 @@
+.portfolio{
+    font-family: "apercuBoldPro";
+    font-size: 16px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    filter: drop-shadow(0px 5px 10px #0000000D);
+    width: 398px;
+    height: 286px;
+    border: 1px solid #EBEBEB;
+    border-radius: 5px;
+    margin-left: 60px;
+}
+
+.portfolioCaption{
+    padding: 8px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.deposit{
+    font-family: "apercuRegularPro";
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 1px solid #5a5a5a;
+}
+
+.pieChart{
+    margin: 0;
+    position: absolute;
+    left: -286px;
+}

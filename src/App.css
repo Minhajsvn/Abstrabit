@@ -1,0 +1,26 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0;
+
+}
+
+@font-face {
+  font-family: "apercuBoldPro";
+  src: local("apercuBoldPro"),
+    url("./font/apercu_bold_pro.otf") format("truetype");
+}
+@font-face {
+  font-family: "apercuMediumPro";
+  src: local("apercuMediumPro"),
+    url("./font/apercu_medium_pro.otf") format("truetype");
+}
+@font-face {
+  font-family: "apercuRegularPro";
+  src: local("apercuRegularPro"),
+    url("./font/apercu_regular_pro.otf") format("truetype");
+}
+
+h1{
+  font-family: "apercuBoldPro";
+  padding-left: 60px;
+}

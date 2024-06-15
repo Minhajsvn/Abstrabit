@@ -1,0 +1,101 @@
+.nav{
+    font-family: 'apercuMediumPro';
+    position: relative;
+    background-color: #ffffff;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+}
+
+/* .navItems{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+.btn{
+    font-family: 'apercuMediumPro';
+    font-size: 17px;
+    border: none;
+    background-color: #ffffff;
+    color: #1A1B1E;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.iconBtn{
+    background-color: #ffffff;
+    border: #4A4ED4 1px solid;
+    border-radius: 24px;
+    color: #4A4ED4;
+    width: 71px;
+    height: 42px;
+    filter: drop-shadow(0px 5px 5px);
+    cursor: pointer;
+}
+
+.space-left{
+    margin-left: 9px;
+}
+
+.menu{
+    position: absolute;
+    background-color: #ffffff;
+    top: 72px;
+    right: 64px;
+    width: 238px;
+    height: 226px;
+    filter: drop-shadow(0px 0px 20px #0000001A);
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+.menuItems{
+    display: flex;
+    align-items: center;
+}
+
+.space-right{
+    margin-right: 12px;
+}
+
+.support{
+    position: absolute;
+    background-color: #ffffff;
+    font-family: "apercuRegularPro";
+    color: #3B39D9;
+    filter: drop-shadow(0px 0px 20px #0000001A);
+    border-radius: 5px;
+    top: 60px;
+    right: 153px;
+    width: 238px;
+    height: 123px;
+    list-style-type: none;
+    font-size: 13px;
+    text-align: left;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #EFEFEF;
+
+}
+
+.phoneText p{
+    margin: 0;
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    padding: 21px;
+}
+
+.mailText p{
+    margin: 0;
+}

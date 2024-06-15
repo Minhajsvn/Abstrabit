@@ -1,0 +1,17 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #1A1B1E;
+  background-color: #F7F8FA;
+  opacity: 1; 
+
+}
+
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
